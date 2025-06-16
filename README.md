@@ -8,7 +8,7 @@ Dies ist mein persönliches Portfolio-Projekt, erstellt mit **HTML**, **CSS** un
 - **Meine Fähigkeiten**: Von Microsoft Office über Kundenservice bis zu ersten Webprojekten
 - **Meine Projekte**:
   - Portfolio-Webseite (diese Seite)
-  - To-Do-App (in Arbeit)
+  - To-Do-App
   - Excel-Demo für Supportkoordination
 - **Dark Mode**: Schaltbar per Button mit JavaScript
 
