@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lovis – Mein Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="darkModeToggle">🌙 Dark Mode</button>
+
+  <header>
+    <h1>Lovis Fabian Malte Huerkamp</h1>
+    <p>Tech-interessierter Quereinsteiger im digitalen Kundensupport</p>
+  </header>
+
+  <section>
+    <h2>Über mich</h2>
+    <p>Ich bin kommunikationsstark, lernwillig und möchte mich im digitalen Bereich weiterentwickeln – besonders im Bereich Support, Web, Software & Tech.</p>
+  </section>
+
+  <section>
+    <h2>Meine Fähigkeiten</h2>
+    <ul>
+      <li>Microsoft Office, Outlook, Excel</li>
+      <li>HTML, CSS – erste Webprojekte</li>
+      <li>Support-Erfahrung, Office-Tätigkeiten</li>
+    </ul>
+  </section>
+<section>
+  <h2>Meine Projekte</h2>
+
+  <div class="projekt">
+    <h3>📄 Portfolio-Webseite</h3>
+    <p>Diese Seite hier – aufgebaut mit HTML und CSS in Visual Studio Code.</p>
+  </div>
+
+  <div class="projekt">
+    <h3>✅ To-Do-App (in Arbeit)</h3>
+    <p>Geplant: Interaktive Aufgabenliste mit JavaScript, um meine Fortschritte zu verfolgen.</p>
+  </div>
+
+  <div class="projekt">
+    <h3>📦 Support-Prozess-Demo (Excel)</h3>
+    <p>Eine strukturierte Tabelle zur Koordination von Team-Shootings, Termine und Aufgaben – wie ich sie bei Intersystems erstellt habe.</p>
+  </div>
+</section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>E-Mail: lovis.huerkamp@web.de</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lovis Huerkamp</p>
+  </footer>
+  <script>
+  const toggleBtn = document.getElementById('darkModeToggle');
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });
+</script>
+</body>
+</html>
